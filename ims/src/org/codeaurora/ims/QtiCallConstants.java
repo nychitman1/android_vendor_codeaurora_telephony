@@ -69,6 +69,9 @@ public class QtiCallConstants {
     /* Call encryption status extra key. The value will be a boolean. */
     public static final String CALL_ENCRYPTION_EXTRA_KEY = "CallEncryption";
 
+    /* Call History Info extra key. The value will be a ArrayList of Strings. */
+    public static final String EXTRAS_CALL_HISTORY_INFO = "CallHistoryInfo";
+
     /* Call fail code extra key name */
     public static final String EXTRAS_KEY_CALL_FAIL_EXTRA_CODE  = "CallFailExtraCode";
 
@@ -219,5 +222,12 @@ public class QtiCallConstants {
     public static final int VOWIFI_QUALITY_EXCELLENT = 1;
     public static final int VOWIFI_QUALITY_FAIR = 2;
     public static final int VOWIFI_QUALITY_POOR = 4;
+
+    /**
+     * Extra indicating the conference support from lower layers
+     * <p>
+     * Type: boolean (true if conference is supported else false)
+     */
+    public static final String CONF_SUPPORT_IND_EXTRA_KEY = "ConfSupportInd";
 }
 
